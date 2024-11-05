@@ -109,11 +109,13 @@ textarea{
         margin-top: 69px;
         width: 186%;
     }
-}
-@media (max-width:394px) {
     form{
         left: 8%;
+        top: 198px;
     }
+}
+@media (max-width:394px) {
+  
 }
 @media (max-width:366px) {
     form{

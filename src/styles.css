@@ -358,10 +358,10 @@
     }
   }
   @media (max-width: 240px) {
-    .footer-contact{
+    /* .footer-contact{
       top: -707%;
       width: 81%;
-    }
+    } */
   } 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

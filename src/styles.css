@@ -215,7 +215,7 @@
   }
   @media (max-width:408px) {
     .footer-contact{
-      top: -574%;
+      top: -574px;
       left: 3%;
         width: 94%;
     }

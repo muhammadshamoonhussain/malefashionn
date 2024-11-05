@@ -215,7 +215,7 @@
   }
   @media (max-width:408px) {
     .footer-contact{
-      top: -600%;
+      top: -585%;
       left: 3%;
         width: 94%;
     }
@@ -253,9 +253,21 @@
   }
 
   }
+  /* @media (max-width: 394px) {
+    .footer-contact{
+      top: -532%;
+      left: 2px;
+      width: 86%;
+    }
+    .footer-checkout{
+      width: 83%;
+      left: 5px;
+      top: -538%;
+  }
+  } */
   @media (max-width: 390px) {
     .footer-checkout{
-      width: 95%;
+      width: 83%;
       left: 5px;
       top: -538%;
   }

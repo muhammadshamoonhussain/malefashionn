@@ -110,7 +110,11 @@ textarea{
         width: 186%;
     }
 }
-
+@media (max-width:394px) {
+    form{
+        left: 8%;
+    }
+}
 @media (max-width:366px) {
     form{
         left: 8%;

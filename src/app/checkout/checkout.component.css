@@ -139,6 +139,12 @@ span{
         left: 15%;
     }
 }
+@media (max-width:394px) {
+    
+    form{
+        left: 6%;
+    }
+}
 @media (max-width:337px) {
     .text h2{
         top: -31%;

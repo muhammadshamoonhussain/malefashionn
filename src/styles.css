@@ -13,9 +13,11 @@
   
   .footer-contact {
     position: absolute;
-    width: 99%;
-    top: -430%;
+    width: 100%;
+    top: -50vh; /* Adjust this based on testing */
+    left: 0;
   }
+  
   .footer-cart {
     position: absolute;
     width: 98%;

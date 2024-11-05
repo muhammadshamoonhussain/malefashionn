@@ -244,7 +244,7 @@
     .footer-contact{
       top: -654%;
       left: 3%;
-        width: 98%;
+        width: 100%;
     }
     .footer-checkout{
       width: 97%;
@@ -252,6 +252,20 @@
       top: -607%;
   }
 
+  }
+  @media (max-width:396px) {
+    
+    .footer-contact{
+      top: -598%;
+      left: 1%;
+      width: 98%;
+
+    }
+    .footer-checkout{
+      top: -597%;
+      left: 1%;
+      width: 98%;
+}
   }
   @media (max-width: 395px) {
     .footer-contact{

@@ -253,7 +253,7 @@
   }
 
   }
-  @media (max-width:398px) {
+  /* @media (max-width:398px) {
     
     .footer-contact{
       top: -598%;
@@ -278,7 +278,7 @@
       left: 5px;
       top: -538%;
   }
-  }
+  } */
   @media (max-width: 390px) {
     .footer-checkout{
       width: 95%;

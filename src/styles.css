@@ -213,6 +213,18 @@
       width: 93%;
     }
   }
+  @media (max-width:408px) {
+    .footer-contact{
+      top: -600%;
+      left: 3%;
+        width: 94%;
+    }
+    .footer-checkout{
+      width: 97%;
+      left: 6px;
+      top: -607%;
+  }
+  }
   @media (max-width:400px) {
     
     .footer-detailcart{

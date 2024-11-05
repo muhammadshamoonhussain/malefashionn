@@ -1,0 +1,22 @@
+<ng-container *ngIf=" product.length > 0 && !order ">
+<form [formGroup]="check" (ngSubmit)="submit(check.value)">
+    <div class="text">
+        <h2>Check Out Form</h2>
+    </div>
+    <label for="">Email</label>
+    <input type="email" name="email" formControlName="email" style="margin-bottom: 10px;">
+    <span style="color: red;" *ngIf="check.get('email')?.invalid && check.get('email')?.touched">Email is required</span>
+    <label for="">Address</label>
+    <input type="text" name="address" formControlName="address">
+    <span style="color: red;" *ngIf="check.get('address')?.invalid && check.get('address')?.touched">Address is required</span>
+    <label for="">Postal</label>
+    <input type="number" name="postal" formControlName="postal">
+    <span style="color: red;" *ngIf="check.get('postal')?.invalid && check.get('postal')?.touched">Postal is required</span>
+    <button type="submit" class="btn" >Order Now</button>
+</form>
+</ng-container>
+
+<ng-container *ngIf="product.length === 0 && !order">
+    <h1>Your cart is empty. Shop more!</h1>
+    <button routerLink="/shop">Shop Now</button>
+  </ng-container>

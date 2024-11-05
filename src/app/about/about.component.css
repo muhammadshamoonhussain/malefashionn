@@ -1,0 +1,100 @@
+.container{
+    position: relative;
+    display: flex;
+    left: 6%;
+    width: 88%;
+    top: 245px;
+}
+.section img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.wrapper{
+    display: flex;
+    margin: 10px;
+}
+.text h1{
+    font-family:"Raleway",sans-serif;
+    font-weight: 500;
+}
+.text1 h1{
+    font-family:"Raleway",sans-serif;
+    font-weight: 500;
+
+}
+.text2 h1{
+    font-family:"Raleway",sans-serif;
+    font-weight: 500;
+
+}
+.text p{
+    color: grey;
+    font-family:"Raleway",sans-serif;
+}
+.text1 p{
+    color: grey;
+    font-family:"Raleway",sans-serif;
+}.text2 p{
+    color: grey;
+    font-family:"Raleway",sans-serif;
+}
+.container1{
+    position: relative;
+    display: flex;
+    width: 10%;
+    top: 620px;
+    left: -5%;
+}
+.hero1 img{
+    width: 500%;
+    height: auto;
+    display: block;
+}
+.text3 p{
+    position: absolute;
+    left: 642%;
+    top: 65px;
+    width: 325%;
+    font-size: 2rem;
+    margin: 0;
+} 
+.text3 .fa-solid{
+    position: absolute;
+    left: 771%;
+    top: -4px;
+    font-size: 2.5rem;
+    color: #e53637;
+}
+@media (max-width:920px) {
+    .text3 p{
+        font-size: 3vw;
+        width: 368%;
+        left: 590%;
+    }
+    .text3 .fa-solid{
+        font-size: 5vw;
+        left: 745%;
+    }
+}
+@media (max-width:630px) {
+    .hero1 img{
+        position: absolute;
+        top: -158px;
+        width: 1038%;
+        left: 0%;
+    }
+    .text3 p{
+        font-size: 5vw;
+        width: 860%;
+        left: 123%;
+        top: 329px;
+        text-align: justify;
+    }
+    .text3 .fa-solid{
+        font-size: 10vw;
+        left: 496%;
+        position: absolute;
+        top: 228px;
+    }
+}

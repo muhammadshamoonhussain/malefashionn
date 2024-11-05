@@ -1,0 +1,151 @@
+.container{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    overflow-x: auto;
+    top: 140px;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+.table th, .table td{
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+.img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.btn{
+    background: black;
+    color: white;
+    width: 8vw;
+    height: 31px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.4vw;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: #9b9b9b;
+    color: black;
+}
+.hero{
+    position: relative;
+    left: 17%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 56%;
+    top: 22px;
+}
+.empty{
+    width: 113%;
+    height: 450px;
+
+}
+.empty img{
+    width: 73%;
+    height: auto;
+    display: block;
+    margin-left: 135px;
+    margin-top: 159px;
+}
+.btn1{
+    background: black;
+    color: white;
+    width: 11vw;
+    height: 35px;
+    margin: 20px;
+    border: none;
+    font-size: 1.6vw;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.btn1:hover{
+    background: #9b9b9b;
+    color: black;
+    border-radius: 6px;
+
+}
+.btn2{
+    background: black;
+    color: white;
+    width: 11vw;
+    height: 35px;
+    margin: 20px;
+    border: none;
+    font-size: 1.6vw;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    position: absolute;
+}
+
+.btn2:hover{
+    background: #9b9b9b;
+    color: black;
+    border-radius: 6px;
+
+}
+.hero1{
+    display: inline-block;
+}
+
+@media (max-width:1115px) {	
+
+.container{
+   top: 100px;
+}
+}
+@media (max-width:615px) {
+    .table th:nth-child(5),
+    .table td:nth-child(5),
+     .table td:nth-child(6),
+     .table th:nth-child(6){
+        display: none;
+    }
+    .btn1{
+        width: 23vw;
+            font-size: 3.5vw;
+    }
+    .btn2{
+        width: 23vw;
+            font-size: 3.5vw;
+    }
+}
+
+@media (max-width:723px) {
+.empty img{
+    width: 64vw;
+    height: auto;
+    display: block;
+    margin-left: 8px;
+    margin-top: 143px;
+}
+}
+@media (max-width:395px) {
+.table th,
+.table td{
+    display: block;
+}
+.btn1{
+    width: 23vw;
+        font-size: 3.5vw;
+}
+.btn2{
+    width: 23vw;
+        font-size: 3.5vw;
+}
+}

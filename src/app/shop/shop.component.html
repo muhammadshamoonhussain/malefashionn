@@ -1,0 +1,21 @@
+<div class="filter">
+    <button class="btn" (click)="filter('all')">All</button>
+    <button class="btn" (click)="filter('shoes')">Shoes</button>
+    <button class="btn" (click)="filter('shirt')">Shirt</button>
+    <button class="btn" (click)="filter('tshirt')">T-Shirt</button>
+    <button class="btn" (click)="filter('jeans')">Jeans</button>
+    <button class="btn" (click)="filter('sweatshirt')">Sweatshirt</button>
+</div>
+
+<div class="wrapper">
+    <div class="content">
+        <ng-container *ngFor="let item of filter1">
+           <div  class="product" routerLink="/detailcart/{{item.id}}">
+            <img src="{{item.img}}" alt="">
+            <strong><p>{{item.name}}</p></strong>
+            <strong><p>{{item.price}}</p></strong>
+        </div>
+    </ng-container>
+    </div>
+</div>
+

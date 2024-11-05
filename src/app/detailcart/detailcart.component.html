@@ -1,0 +1,19 @@
+<div class="container" *ngIf="productData">
+  <i class="fa-solid fa-arrow-left" routerLink="/shop"></i>
+        <div class="pro-img">
+            <img [src]=" change || productData['img1']" alt="">
+            <div class="sm-img">
+              <img [src]="productData['img01']" [class.selected]="selectedImg == productData['img1']" (click)="changeImg(productData['img1'])" alt="">
+              <img [src]="productData['img2']" [class.selected]="selectedImg == productData['img4']" (click)="changeImg(productData['img4'])" alt="">
+              <img [src]="productData['img3']" [class.selected]="selectedImg == productData['img5']" (click)="changeImg(productData['img5'])" alt="">
+
+
+             </div>
+            <div class="text">
+              <h2>{{productData.name}}</h2>
+              <h3>Price : {{productData.price}}</h3>
+                <p class="category"><span>Description:</span>{{productData.description}}</p>
+              <button class="btn5" (click)="addtocart(productData)">Add To Cart</button>
+            </div>
+        </div>
+</div>

@@ -1,0 +1,162 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width: 42%;
+    position: relative;
+    left: 30%;
+    top: 350px;
+}
+label{
+    position: relative;
+    left: 4%;
+    top: 12px;
+    font-size: 1.2rem;
+}
+input{
+    height: 36px;
+    border-radius: 9px;
+    outline: none;
+    height: 36px;
+    border-radius: 9px;
+    outline: none;
+    padding-left: 10px;
+    font-size: 1.2rem;
+    border: 1px solid black;
+    margin: 20px;
+
+}
+textarea{
+    height: 150px;
+    border-radius: 9px;
+    outline: none;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+.btn{
+    width: 33%;
+    height: 33px;
+    margin-top: 11px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-left: 22px;
+}
+ .btn:hover{
+    background: #9b9b9b;
+    color: black;
+}
+.text h2{
+    font-size: 4.1vw;
+    color: #000000;
+    position: absolute;
+    top: -57%;
+    left: 10%;
+    width: 93%;
+}
+span{
+    margin-left: 26px;
+}
+@media (max-width:1115px) {
+    .text h2{
+        top: -41%;
+    }
+}
+@media (max-width:780px) {
+    .text h2{
+        top: -38%;
+        font-size: 5.5vw;
+        width: 114%;
+        left: 18%;
+    }
+    input{
+        width: 128%;
+    }
+    .btn{
+        width: 46%;
+    }
+    form{
+        left: 23%;
+        top: 242px;
+    }
+}
+@media (max-width:550px) {
+    .text h2{
+        top: -35%;
+        font-size: 6.5vw;
+        width: 121%;
+        left: 18%;
+    }
+    input{
+        width: 128%;
+    }
+    .btn{
+        width: 53%;
+    }
+    form{
+        left: 20%;
+    }
+}
+@media (max-width:476px) {
+    .text h2{
+        top: -33%;
+        font-size: 7.5vw;
+        width: 141%;
+        left: 11%;
+    }
+    input{
+        width:155%;
+    }
+    .btn{
+        width: 65%;
+    }
+    form{
+        left: 13%;
+    }
+    label{
+        left: 15%;
+    }
+}
+@media (max-width:420px) {
+    .text h2{
+        top: -31%;
+        font-size: 8.5vw;
+        width: 172%;
+        left: 17%;
+    }
+    input{
+        width:155%;
+    }
+    .btn{
+        width: 162%;
+    }
+    form{
+        left: 13%;
+    }
+    label{
+        left: 15%;
+    }
+}
+@media (max-width:337px) {
+    .text h2{
+        top: -31%;
+        font-size: 10.5vw;
+        width: 204%;
+        left: 7%;
+    }
+    input{
+        width:181%;
+    }
+    .btn{
+        width:191%;
+    }
+    form{
+        left: 6%;
+        top: 84px;
+    }
+    label{
+        left: 15%;
+    }
+}

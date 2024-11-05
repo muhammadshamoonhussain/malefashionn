@@ -1,0 +1,14 @@
+<app-header></app-header>
+<div [ngClass]="{
+    'footer-home': router.url === '/home',
+    'footer-about': router.url === '/about',
+    'footer-contact': router.url === '/contact',
+    'footer-shop': router.url === '/shop',
+    'footer-cart': router.url === '/cart',
+    'footer-checkout': router.url === '/checkout',
+    'footer-detailcart': router.url.includes('/detailcart')
+
+  }" *ngIf="router.url !== '/no-footer-page'">
+    <app-footer></app-footer>
+  </div>
+  <router-outlet></router-outlet>

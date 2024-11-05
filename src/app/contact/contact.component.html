@@ -1,0 +1,18 @@
+<form class="contact-form" action="https://api.web3forms.com/submit" method="post" [formGroup]="myContact"s>
+    <div class="text">
+        <h2>Contact Form</h2>
+    </div>
+    <!-- <div class="hero"> -->
+    <input type="hidden" name="access_key" value="b93b9c78-c559-4d7d-9c49-b89418d1797b" />
+    <label for="">Name</label>
+    <input type="text" name="name" formControlName="name" style="margin-bottom: 10px;">
+    <span style="color: red;" *ngIf="myContact.get('name')?.invalid && myContact.get('name')?.touched">Name is required</span>
+    <label for="" style="margin-top: 10px;">Email</label>
+    <input type="email" name="email" formControlName="email">
+    <span style="color: red; margin-top: 10px;" *ngIf="myContact.get('email')?.invalid && myContact.get('email')?.touched">Email is required</span>
+    <label for="" style="margin-top: 10px;">Message</label>
+    <textarea type="text" name="message" formControlName="message"></textarea>
+    <span style="color: red; margin-top: 10px;" *ngIf="myContact.get('message')?.invalid && myContact.get('message')?.touched">Message is required</span>
+    <button type="submit" class="btn" (click)="submit(myContact.value)">Submit</button>
+<!-- </div> -->
+</form>

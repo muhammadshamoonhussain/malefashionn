@@ -209,6 +209,18 @@
         width: 143%;
     }
     }
+@media (max-width:390px) {
+    .navbar a{
+        left: 20%;
+    }
+    #cross{
+        left: 69%;
+    }
+    .navbar{
+        width: 89%;
+    }
+}
+
 @media (max-width:395px) {
     .logo{
          font-size: 5.1vw;

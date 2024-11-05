@@ -230,11 +230,29 @@
     top: -488%;
     }
     .footer-contact{
-      top: -640%;
+      top: -625%;
       left: 3%;
         width: 94%;
     }
+    .footer-checkout{
+      width: 97%;
+      left: 6px;
+      top: -636%;
+  }
 
+  }
+  @media (max-width: 390px) {
+    .footer-checkout{
+      width: 95%;
+      left: 5px;
+      top: -538%;
+  }
+  .footer-detailcart{
+    top: -502%;
+    width: 86%;
+    left: 2px;
+
+  }
   }
   @media (max-width: 395px) {
     .footer-cart{

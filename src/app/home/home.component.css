@@ -446,6 +446,20 @@ transform: scaleY(1.05);
 
    }
 }
+
+@media (max-width:736px) {
+    .wrapper{
+        left: 31%;
+        width: 59%;
+    }
+}
+@media (max-width:734px) {
+    .wrapper{
+        left: 31%;
+        width: 43%;
+    }
+    
+}
 @media (max-width:728px) {
 .banner{
     width: 75%;
@@ -486,13 +500,14 @@ transform: scaleY(1.05);
 font-size: 2rem;
 }
 }
+
 @media (max-width:685px) {
     .banner{
         top: 2503px;
  
     }
+   
 }
-
 @media (max-width:656px) {
     .container .img{
         width: 570px;
@@ -829,6 +844,137 @@ font-size: 2rem;
     width: 37vw;
         left: 26%;
 }
+}
+@media (max-width:390px) {
+    .container .img{
+        width: 90%;
+        height: auto;
+        display: block;
+        top: 52px;
+
+    }
+    .hero{
+        top: 367px;
+        left: -11%;
+    }
+    .hero h2{
+        font-size: 1.4rem;
+        width: 63%;
+    }
+    .btn{
+        left: 30%;
+        width: 37vw;
+    }
+    .container1{
+        left: 42%;
+        width: 25%;
+    }
+    .container1 .img2{
+        width: 249%;
+        margin-left: -115px;
+    }
+    .hero1 h1{
+        width: 235%;
+        left: -133%;
+
+    }
+    
+    .hero1 .btn2{
+        top: 67%;
+        left: -121%;
+    }
+    .container2 .img3{
+        width: 287%;
+    }
+    .hero2 h1{
+        left: 196%;
+    }
+    .hero2 .btn3{
+        width: 148%;
+        top: 56%;
+    }
+    .container3{
+        left: 44%;
+    }
+    .container3 .img4{
+        width: 299%;
+        margin-left: -135px;
+    }
+    .hero3 h1{
+        width:278%;
+        left: -168%;
+    }
+    .hero3 .btn4{
+        width: 154%;
+        top: 72%;
+        left: -146%;
+
+    }
+    .container .img{
+        width: 90%;
+        height: auto;
+        display: block;
+        top: 52px;
+
+    }
+    .hero{
+        top: 367px;
+        left: -11%;
+    }
+    .hero h2{
+        font-size: 1.4rem;
+        width: 63%;
+    }
+    .btn{
+        left: 18%;
+    }
+    .container1{
+        left: 42%;
+        width: 25%;
+    }
+    .container1 .img2{
+        width: 249%;
+        margin-left: -75px;
+    }
+    .hero1 h1{
+        width: 291%;
+        left: -133%;
+
+    }
+    .hero1 .btn2{
+        top: 67%;
+        left: -121%;
+    }
+    .container2 .img3{
+        width: 287%;
+    }
+    .hero2 .btn3{
+        width: 148%;
+        top: 56%;
+    }
+    .container3{
+        left: 44%;
+    }
+    .container3 .img4{
+        width: 299%;
+        margin-left: -102px;
+    }
+    .hero3 h1{
+        width:278%;
+        left: -168%;
+    }
+    .hero3 .btn4{
+        width: 170%;
+        top: 72%;
+        left: -146%;
+
+    }
+    .wrapper{
+        left: 9%;
+    }
+    .text p{
+        width: 83%;
+    }
 }
 @media (max-width:374px) {
     .container .img{

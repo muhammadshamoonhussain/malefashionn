@@ -180,6 +180,38 @@ max-width: 400px;
         font-size: 2rem;
     }
 }
+@media (max-width:736px) {
+    .text{
+        top: 29%;
+        left: 53%;
+    }
+    .text .category{
+        display: none;
+    }
+    
+    .pro-img img{
+        width: 89%;
+        height: 100%;
+        position: relative;
+        left: -23%;
+
+    
+    }
+    .sm-img{
+        left: 11%;
+        flex-direction: row;
+        gap: 77px;
+        top: 37%;
+    }
+    .sm-img img{
+        width: 163%;
+        height: 110px;
+    }
+    .text h2{
+        margin-top: -42px;
+        font-size: 2rem;
+    }
+}
 @media (max-width:630px) {
     .container{
         top: 6px;
@@ -638,6 +670,11 @@ width: 43%;
             top: 7%;
         }
 }
+ @media (max-width:390px) {
+    .fa-solid{
+        font-size: 6.5vw;
+    }
+ }
 @media (max-width:345px) {
     .container{
         top: 6px;

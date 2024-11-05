@@ -209,12 +209,6 @@
         width: 143%;
     }
     }
-    @media (max-width:395px) {
-    .navbar{
-        width: 127%;
-        left: -1%;
-    }
-    }
 @media (max-width:390px) {
     .navbar a{
         left: 20%;
@@ -227,7 +221,7 @@
     }
 }
 
-/* @media (max-width:394px) {
+@media (max-width:394px) {
     .logo{
          font-size: 5.1vw;
         width: 40%;
@@ -237,4 +231,10 @@
         width: 89%;
         left: -1%;
     }
-} */
+}
+@media (max-width:395px) {
+.navbar{
+    width: 127%;
+    left: -1%;
+}
+}

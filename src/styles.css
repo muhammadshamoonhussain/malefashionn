@@ -243,11 +243,11 @@
     width: 95%;
     top: -488%;
     }
-    /* .footer-contact{
-      top: -654px;
-      left: 3%;
-        width: 100%;
-    } */
+    .footer-contact{
+      top: -650vh;
+      left: 1%;
+      width: 98%;
+  }
     .footer-checkout{
       width: 97%;
       left: 6px;

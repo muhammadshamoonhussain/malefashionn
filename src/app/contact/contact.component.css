@@ -114,7 +114,7 @@ textarea{
         top: 223px;
     }
 }
-@media (max-width:396px) {
+@media (max-width:398px) {
     .text h2{
         font-size: 10.3vw;
         left: 11%;

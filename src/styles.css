@@ -243,11 +243,11 @@
     width: 95%;
     top: -488%;
     }
-    .footer-contact{
-      top: -650vh;
+    /* .footer-contact{
+      top: -600vh;
       left: 1%;
       width: 98%;
-  }
+  } */
     .footer-checkout{
       width: 97%;
       left: 6px;
@@ -255,14 +255,13 @@
   }
 
   }
-  @media (max-width:398px) {
+  @media (max-width:396px) {
     
-    /* .footer-contact{
-      top: -598px;
+    .footer-contact{
+      top: -600vh;
       left: 1%;
       width: 98%;
-
-    } */
+  }
     .footer-checkout{
       top: -597%;
       left: 1%;

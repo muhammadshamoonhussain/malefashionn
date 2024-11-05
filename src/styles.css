@@ -255,9 +255,9 @@
   }
   @media (max-width: 395px) {
     .footer-contact{
-      top: -532%;
+      top: -332%;
       left: 2px;
-      width: 86%;
+      width: 90%;
     }
     .footer-checkout{
       width: 83%;

@@ -216,8 +216,9 @@
   @media (max-width:400px) {
     
     .footer-detailcart{
-      top: -669%;
-      width: 96%;
+      top: -621%;
+      width: 97%;
+  
     }
     .footer-shop{
       position: absolute;

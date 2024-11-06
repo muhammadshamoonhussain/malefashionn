@@ -140,7 +140,7 @@
       .footer-checkout{
         width: 97%;
         left: 8px;
-        top: -685%;
+        top: -600vh;
     }
   }
   @media (max-width:630px) {
@@ -224,21 +224,21 @@
       width: 94%;
     }
   }
-  /* @media (max-width:437px) {
+  @media (max-width:437px) {
    
       .footer-checkout{
         position: absolute;
         width: 96%;
-        top: -692vh;
+        top: -600vh;
       }
-    } */
+    }
   @media (max-width:425px) {
     .footer-shop{
       top: 890%;
       width: 93%;
     }
   }
-  /* @media (max-width:410px) {
+   @media (max-width:410px) {
     .footer-contact{
       top: -574px;
       left: 3%;
@@ -247,10 +247,10 @@
     .footer-checkout{
       width: 97%;
       left: 7px;
-      top: -705vh;
+      top: -600vh;
   }
-  } */
-  /* @media (max-width:400px) {
+  } 
+   @media (max-width:400px) {
     
     .footer-detailcart{
       top: -621%;
@@ -281,7 +281,7 @@
       width: 98%;
   }
     .footer-checkout{
-      top: -700vh;
+      top: -600vh;
       left: 1%;
       width: 98%;
 }
@@ -291,7 +291,7 @@
     .footer-checkout{
       width: 95%;
       left: 5px;
-      top: -700vh;
+      top: -600vh;
   }
   .footer-detailcart{
     top: -502%;
@@ -310,7 +310,7 @@
   .footer-checkout{
     width: 97%;
     left: 6px;
-    top: -700vh;
+    top: -600vh;
 }
   }
   @media (max-width: 389px) {
@@ -324,7 +324,7 @@
       .footer-checkout{
         width: 96%;
         left: 6px;
-        top: -700vh;
+        top: -600vh;
     }
   } 
   @media (max-width: 345px) {
@@ -366,6 +366,6 @@
       top: -707%;
       width: 81%;
     }
-  }  */
+  }  
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -211,11 +211,11 @@
       width: 96%;
     }
 
-      /* .footer-checkout{
+      .footer-checkout{
         position: absolute;
         width: 96%;
-        top: -692vh;
-      } */
+        top: -700vh;
+      }
     }
 
   @media (max-width:460px) {

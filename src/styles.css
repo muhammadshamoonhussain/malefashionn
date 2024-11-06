@@ -36,8 +36,8 @@
   }
   .footer-checkout{
     position: absolute;
-    width: 98%;
-    top: -452%;
+    width: 100%;
+    top: -500vh
   }
   @media (max-width:1115px) {
     .footer-cart{
@@ -82,7 +82,15 @@
         top: 150%;
     }
   }
-  @media (max-width:864px) {
+  @media (max-width:886px) {
+
+  .footer-checkout{
+    position: absolute;
+    width: 97%;
+    top: -642vh;
+  }
+}
+    @media (max-width:864px) {
     .footer-cart{
         top: 193%;
     }
@@ -202,13 +210,28 @@
       top: -661%;
       width: 96%;
     }
-  }
+
+      .footer-checkout{
+        position: absolute;
+        width: 96%;
+        top: -692vh;
+      }
+    }
+
   @media (max-width:460px) {
     .footer-shop{
       top: 980%;
       width: 94%;
     }
   }
+  @media (max-width:437px) {
+   
+      .footer-checkout{
+        position: absolute;
+        width: 96%;
+        top: -692vh;
+      }
+    }
   @media (max-width:425px) {
     .footer-shop{
       top: 890%;
@@ -223,8 +246,8 @@
     }
     .footer-checkout{
       width: 97%;
-      left: 6px;
-      top: -785vh;
+      left: 7px;
+      top: -705vh;
   }
   }
   @media (max-width:400px) {
@@ -251,7 +274,7 @@
     .footer-checkout{
       width: 97%;
       left: 6px;
-      top: -607%;
+      top: -701vh;
   }
 
   }
@@ -263,28 +286,17 @@
       width: 98%;
   }
     .footer-checkout{
-      top: -597%;
+      top: -700vh;
       left: 1%;
       width: 98%;
 }
   }
-  @media (max-width: 395px) {
-    /* .footer-contact{
-      top: -332px;
-      left: 2px;
-      width: 90%;
-    } */
-    .footer-checkout{
-      width: 83%;
-      left: 5px;
-      top: -538%;
-  }
-  }
+
   @media (max-width: 390px) {
     .footer-checkout{
       width: 95%;
       left: 5px;
-      top: -538%;
+      top: -700vh;
   }
   .footer-detailcart{
     top: -502%;
@@ -303,7 +315,7 @@
   .footer-checkout{
     width: 97%;
     left: 6px;
-    top: -685%;
+    top: -700vh;
 }
   }
   @media (max-width: 389px) {
@@ -321,7 +333,7 @@
       .footer-checkout{
         width: 96%;
         left: 6px;
-        top: -705%;
+        top: -700vh;
     }
   } 
   @media (max-width: 345px) {

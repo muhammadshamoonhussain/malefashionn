@@ -211,11 +211,11 @@
       width: 96%;
     }
 
-      .footer-checkout{
+      /* .footer-checkout{
         position: absolute;
         width: 96%;
         top: -692vh;
-      }
+      } */
     }
 
   @media (max-width:460px) {
@@ -224,14 +224,14 @@
       width: 94%;
     }
   }
-  @media (max-width:437px) {
+  /* @media (max-width:437px) {
    
       .footer-checkout{
         position: absolute;
         width: 96%;
         top: -692vh;
       }
-    }
+    } */
   @media (max-width:425px) {
     .footer-shop{
       top: 890%;

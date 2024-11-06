@@ -87,7 +87,7 @@
   .footer-checkout{
     position: absolute;
     width: 97%;
-    top: -642vh;
+    top: -655vh;
   }
 }
     @media (max-width:864px) {
@@ -140,7 +140,7 @@
       .footer-checkout{
         width: 97%;
         left: 8px;
-        top: -600vh;
+        top: -655vh;
     }
   }
   @media (max-width:630px) {

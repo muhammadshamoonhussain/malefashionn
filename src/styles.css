@@ -250,7 +250,7 @@
       top: -705vh;
   }
   }
-  @media (max-width:400px) {
+  /* @media (max-width:400px) {
     
     .footer-detailcart{
       top: -621%;
@@ -266,11 +266,6 @@
     width: 95%;
     top: -488%;
     }
-    /* .footer-contact{
-      top: -600vh;
-      left: 1%;
-      width: 98%;
-  } */
     .footer-checkout{
       width: 97%;
       left: 6px;
@@ -325,10 +320,6 @@
     }
   } 
   @media (max-width: 366px) {
-    /* .footer-contact{
-      top: -672%;
-      width: 91%;
-    } */
 
       .footer-checkout{
         width: 96%;
@@ -375,6 +366,6 @@
       top: -707%;
       width: 81%;
     }
-  } 
+  }  */
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

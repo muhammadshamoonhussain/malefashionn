@@ -215,7 +215,7 @@
       width: 93%;
     }
   }
-  @media (max-width:408px) {
+  @media (max-width:410px) {
     .footer-contact{
       top: -574px;
       left: 3%;

@@ -113,6 +113,8 @@
     .footer-checkout{
         width: 97%;
         left: 8px;
+    top: -655vh;
+
     }
   }
   @media (max-width:685px) {

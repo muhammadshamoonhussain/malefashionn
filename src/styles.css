@@ -111,9 +111,17 @@
   }
   @media (max-width:780px) {
     .footer-checkout{
-        width: 97%;
-        left: 8px;
-    top: -1051vh;
+      width: 97%;
+      left: 12px;
+      top: -661vh;
+
+    }
+  }
+  @media (max-width:700px) {
+    .footer-checkout{
+      width: 97%;
+      left: 12px;
+      top: -1037vh;
 
     }
   }

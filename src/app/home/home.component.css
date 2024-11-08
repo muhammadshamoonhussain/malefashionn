@@ -276,7 +276,7 @@ transform: scaleY(1.05);
         top: 106px;
     }
     .btn{
-        top: 112px;
+        top: 160px;
         left: 10%;
     }
     
@@ -291,6 +291,10 @@ transform: scaleY(1.05);
 @media (max-width:1092px) {
 .hero h2{
 width: 36%;
+margin-top: -43px;
+}
+.btn{
+    top: 137px;
 }
 }
 @media (max-width:1062px) {
@@ -567,12 +571,19 @@ font-size: 2rem;
     }
     .hero h2{
         font-size: 1.4rem;
-        margin-top: -17px;
+        margin-top: -57px;
     }
     .btn{
         left: 17%;
         top: 51px;
     }
+        .container1 h1 {
+            width: 152%;
+            font-size: 1.9rem;
+        }
+        .hero2 .btn3{
+            width: 78%;
+        }
 }
 @media (max-width:626px) {
     .container .img{
@@ -794,11 +805,14 @@ font-size: 2rem;
     }
     .hero{
         top: 395px;
-        left: -11%;
+        left: -18%;
     }
     .hero h2{
         font-size: 1.4rem;
         width: 83%;
+    }
+    .hero h6{
+        width: 60%;
     }
     .btn{
         left: 23%;
@@ -1114,3 +1128,13 @@ font-size: 2rem;
         width: 87vw;
     }
 }
+@media (max-width: 287px) {
+.hero h2{
+    width: 65%;
+}
+}
+@media (max-width: 278px) {
+    .hero h2{
+        width: 74%;
+    }
+    }

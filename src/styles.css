@@ -1,10 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
 
 .footer-home {
     position: fixed;
@@ -46,6 +40,11 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     width: 100%;
     top: -500vh
   }
+  /* .footer-shop{
+    position: absolute;
+    width: 100%;
+    top: -500vh
+  } */
   @media (max-width:1115px) {
     .footer-cart{
         top: -90%;
@@ -383,3 +382,5 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     }
   }  
 
+  html, body { height: 100%; }
+  body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

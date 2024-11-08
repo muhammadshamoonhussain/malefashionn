@@ -4,12 +4,15 @@
     position: fixed;
     bottom: 0;
     width: 100%;
+    max-width: 100%;
   }
   
   .footer-about {
     position: relative;
     bottom: auto;
     margin-top: 20px;
+    max-width: 100%;
+
   }
   
   .footer-contact {
@@ -17,34 +20,42 @@
     width: 100%;
     top: -50vh; 
     left: 0;
+    max-width: 100%;
   }
   
   .footer-cart {
     position: absolute;
     width: 98%;
     top: 190%;
+    max-width: 100%;
+
   }
   .footer-about {
     position: absolute;
     width: 98%;
     top: -320%;
     left: 1%;
+    max-width: 100%;
+
   }
   .footer-detailcart{
     position: absolute;
     width: 98%;
     top: -452%;
+    max-width: 100%;
+
   }
   .footer-checkout{
     position: absolute;
     width: 100%;
-    top: -500vh
+    top: -500vh;
+    max-width: 100%;
+
   }
-  /* .footer-shop{
-    position: absolute;
-    width: 100%;
-    top: -500vh
-  } */
+  .footer-shop{
+    /* max-width: 99%; */
+
+  }
   @media (max-width:1115px) {
     .footer-cart{
         top: -90%;
@@ -66,9 +77,24 @@
   }
   @media (max-width:1022px) {
     .footer-shop {
-        position: absolute;
-        bottom: -192%;
-        width: 98%;
+      position: absolute;
+        bottom: 210%;
+        width: 100%;
+      }
+  }
+  @media (max-width:1016px) {
+    .footer-shop {
+      position: absolute;
+        bottom: 210%;
+        width: 100%;
+      }
+  }
+  @media (max-width:992px) {
+    .footer-shop {
+      position: absolute;
+        bottom: -109%;
+        width: 99%;
+        left: 4px;
       }
   }
   @media (max-width:974px) {
@@ -88,6 +114,14 @@
         top: 150%;
     }
   }
+  @media (max-width:893px) {
+    .footer-shop {
+      position: absolute;
+        bottom: -109%;
+        width: 100%;
+        left: -5px;
+      }
+  }
   @media (max-width:886px) {
 
   .footer-checkout{
@@ -96,15 +130,48 @@
     top: -655vh;
   }
 }
+@media (max-width:879px) {
+  .footer-shop {
+    position: absolute;
+    bottom: -101%;
+    width: 100%;
+    left: -6px;
+    }
+}
     @media (max-width:864px) {
     .footer-cart{
         top: 193%;
     }
   }
+  @media (max-width:854px) {
+    .footer-shop {
+      position: absolute;
+      bottom: -101%;
+      width: 100%;
+      left: -7px;
+      }
+  }
   @media (max-width:846px) {
     .footer-cart{
         top: 400%;
     }
+  }
+  @media (max-width:829px) {
+    .footer-shop {
+      position: absolute;
+      bottom: -101%;
+      width: 100%;
+      left: -8px;
+      }
+  }
+  @media (max-width:820px) {
+    .footer-shop {
+      position: absolute;
+      bottom: -101%;
+      width: 99%;
+      left: 8px;
+
+      }
   }
 
   @media (max-width:798px) {
@@ -120,6 +187,25 @@
 
     }
   }
+  @media (max-width:767px) {
+    .footer-shop {
+      position: absolute;
+      bottom: -101%;
+      width: 99%;
+      left: 6px;
+
+      }
+  }
+  @media (max-width:721px) {
+    .footer-shop {
+      position: absolute;
+      bottom: -113%;
+      width: 99%;
+      left: 4px;
+
+      }
+  }
+
   @media (max-width:700px) {
     .footer-checkout{
       width: 97%;
@@ -129,15 +215,25 @@
 
     }
   }
+
   @media (max-width:685px) {
     .footer-about {
     width: 98%;
     top: -472%;
     }
   }
+  @media (max-width:676px) {
+    .footer-shop {
+      position: absolute;
+      bottom: -947%;
+      width: 99%;
+      left: 3px;
+
+      }
+  }
   @media (max-width: 652px) {
     .footer-shop{
-      top: 986%;
+      top: 1031%;
       width: 98%;
     }
   }
@@ -155,6 +251,10 @@
         width: 97%;
         left: 8px;
         top: -655vh;
+    }
+    .footer-shop{
+      top: 1031%;
+      width: 98%;
     }
   }
   @media (max-width:630px) {
@@ -195,8 +295,14 @@
  
   @media (max-width:555px) {
     .footer-shop{
-      top: 980%;
-      width: 96%;
+      top: 986%;
+      width: 99%;
+    }
+  }
+  @media (max-width:540px) {
+    .footer-shop{
+      top: 986%;
+      width: 98%;
     }
   }
 
@@ -215,8 +321,8 @@
   }
   @media (max-width:503px) {
     .footer-shop{
-      top: 980%;
-      width: 95%;
+      top: 986%;
+      width: 98%;
     }
   }
   @media (max-width:491px) {
@@ -231,11 +337,17 @@
         top: -600vh;
       }
     }
-
+    @media (max-width:485px) {
+      .footer-shop{
+        top: 986%;
+        width: 97%;
+      }
+    }
   @media (max-width:460px) {
     .footer-shop{
-      top: 980%;
-      width: 94%;
+      top: 986%;
+      width: 98%;
+
     }
   }
   @media (max-width:437px) {
@@ -245,11 +357,16 @@
         width: 96%;
         top: -600vh;
       }
+      .footer-shop{
+        top: 986%;
+        width: 97%;
+  
+      }
     }
   @media (max-width:425px) {
     .footer-shop{
-      top: 890%;
-      width: 93%;
+      top: 986%;
+      width: 97%;
     }
   }
    @media (max-width:410px) {
@@ -274,7 +391,7 @@
     .footer-shop{
       position: absolute;
       top: 986%;
-      width: 93%;
+      width: 98%;
   }
   .footer-about {
     width: 95%;
@@ -330,7 +447,7 @@
   @media (max-width: 389px) {
     .footer-shop{
       top: 986%;
-      width: 91%;
+      width: 97%;
     }
   } 
   @media (max-width: 366px) {
@@ -347,6 +464,10 @@
       top: -666%;
       width: 89%;
     }
+    .footer-shop{
+      top: 913%;
+      width: 96%;
+    }
   }
   @media (max-width: 337px) {
     
@@ -357,8 +478,8 @@
   }
   @media (max-width: 328px) {
     .footer-shop{
-      top: 846%;
-      width: 89%;
+      top: 907%;
+      width: 97%;
     }
   } 
   @media (max-width: 300px) {
@@ -366,6 +487,12 @@
     .footer-detailcart{
       top: -666%;
       width: 87%;
+    }
+  } 
+  @media (max-width: 281px) {
+    .footer-shop{
+      top: 745%;
+      width: 96%;
     }
   } 
   @media (max-width: 276px) {

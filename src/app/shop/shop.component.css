@@ -86,7 +86,12 @@ transform: scaleY(1.05);
 }
 @media (max-width:1022px) {
     .wrapper{
-        width: 96%;
+        width: 94%;
+    }
+}
+@media (max-width:1016px) {
+    .wrapper{
+        width: 95%;
     }
 }
 @media (max-width:1012px) {
@@ -109,14 +114,38 @@ transform: scaleY(1.05);
 }
 @media (max-width:798px) {
     .wrapper{
-        width: 96%;
-        left: 5%;
+        width: 88%;
+        left: 12%;
+    }
+}
+@media (max-width:721px) {
+    .wrapper{
+        width: 92%;
+        left: 7%;
+    }
+}
+@media (max-width:690px) {
+    .wrapper{
+        width: 93%;
+        left: 7%;
+    }
+}
+@media (max-width:683px) {
+    .wrapper{
+        width: 94%;
+        left: 6%;
     }
 }
 @media (max-width:678px) {
     .wrapper{
-        width: 100%;
-        left: 1%;
+        width: 94%;
+        left: 5%;
+    }
+}
+@media (max-width:676px) {
+    .wrapper{
+        width: 71%;
+        left: 28%;
     }
 }
 @media (max-width:650px) {
@@ -124,24 +153,38 @@ transform: scaleY(1.05);
         width: 70%;
         left: 30%;
     }
-}
-@media (max-width:650px) {
     .filter{
         width: 70%;
         left: 25%;
     }
 }
+
 @media (max-width:508px) {
     .wrapper{
         width: 70%;
         left: 19%;
     }
+    .filter{
+        width: 75%;
+        left: 14%;
+    }
 }
-
+@media (max-width:460px) {
+    .filter{
+        width: 73%;
+        left: 26%;
+    }
+}
+@media (max-width:438px) {
+    .wrapper{
+        width: 80%;
+        left: 18%;
+    }
+}
 @media (max-width:400px) {
     .wrapper{
         left: 13%;
-        width: 89%;
+        width: 86%;
     }
     .filter{
         width: 75%;
@@ -154,7 +197,13 @@ transform: scaleY(1.05);
         width: 89%;
     }
     .filter{
-        width: 88%;
+        width: 84%;
         left: 14%;
+    }
+}
+@media (max-width:281px) {
+    .filter{
+        width: 89%;
+        left: 7%;
     }
 }

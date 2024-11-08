@@ -1098,7 +1098,7 @@ font-size: 2rem;
 @media (max-width: 360px) {
     .btn{
         width: 47vw;
-        left: 36%;
+        left: 30%;
     }
     }
 @media (max-width: 336px) {

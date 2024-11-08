@@ -3,10 +3,10 @@
     <span class="toggle-button" id="cross" (click)="toggleMenu()" *ngIf="ismenu">&times;</span>
     <a href="" class="logo">Male Fashion</a>
     <ul class="menu" [ngClass]="{'open' : ismenu, 'close': !ismenu}">
-        <li><a routerLink="">Home</a></li>
-        <li><a routerLink="about">About</a></li>
-        <li><a routerLink="shop">Shop</a></li>
-        <li><a routerLink="contact">Contact</a></li>
+        <li><a routerLink="" (click)="closenavbar()">Home</a></li>
+        <li><a routerLink="about" (click)="closenavbar()">About</a></li>
+        <li><a routerLink="shop" (click)="closenavbar()">Shop</a></li>
+        <li><a routerLink="contact" (click)="closenavbar()">Contact</a></li>
     </ul>
     <div class="icon">
         

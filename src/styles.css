@@ -1,4 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
 .footer-home {
     position: fixed;
     bottom: 0;
@@ -14,7 +21,7 @@
   .footer-contact {
     position: absolute;
     width: 100%;
-    top: -50vh; /* Adjust this based on testing */
+    top: -50vh; 
     left: 0;
   }
   
@@ -100,10 +107,7 @@
         top: 400%;
     }
   }
-  @media (max-width:827px) {
-        /* .footer-home{
-    } */
-  }
+
   @media (max-width:798px) {
     .footer-cart{
       top: 698%;
@@ -378,5 +382,4 @@
       width: 81%;
     }
   }  
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+

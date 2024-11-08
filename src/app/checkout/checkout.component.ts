@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ApiService } from '../service/api.service';
 import { CartapiService } from '../service/cartapi.service';
-import Swal from "sweetalert2";
+import Swal from 'sweetalert2';
 import { AngularFirestore , AngularFirestoreCollection } from "@angular/fire/compat/firestore";
 import { take } from 'rxjs';
 
@@ -34,15 +34,8 @@ export class CheckoutComponent implements OnInit{
   }
 
   submit(val: any) {
-    if (this.check.invalid) {
-      Swal.fire({
-        title: "Oops!",
-        text: "Please fill in all required fields!",
-        icon: "error",
-        confirmButtonText: "Okay"
-      });
-      return;
-    }
+    if (this.check.valid) {
+    
     const total = this.cartapi.getTotal();
   
       const orderData = {
@@ -58,6 +51,11 @@ export class CheckoutComponent implements OnInit{
         .then(res => {
           this.checkmsg = 'Order is Submitted!';
           console.log('Document successfully written!', res);
+          Swal.fire({
+            title: "Good job!",
+            text: "Your Order is Placed",
+            icon: "success"
+          });
           this.order = true
           this.cartapi.remove()
           this.check.reset()
@@ -66,11 +64,20 @@ export class CheckoutComponent implements OnInit{
         .catch(err => {
           this.checkmsg = 'Error Occurred!';
           console.error('Error writing document: ', err);
+         
         });
   
       // this.cartapi.remove(); 
       // this.check.reset();
-
+    }
+    else{
+      Swal.fire({
+        title: "Oops!",
+        text: "Please fill in all required fields!",
+        icon: "error",
+        confirmButtonText: "Okay"
+      });
+    }
   }
   
   }

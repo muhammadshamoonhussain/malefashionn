@@ -44,9 +44,6 @@ submit(val:any){
        
       },
     });
-    // setTimeout(() => {
-    //   this.Swal.fire = ''
-    // }, 30);
   })
   
   .catch(err =>{

@@ -1,4 +1,4 @@
-import { Component,OnInit } from '@angular/core';
+import { Component,HostListener,OnInit } from '@angular/core';
 import { CartapiService } from '../service/cartapi.service';
 
 @Component({
@@ -18,4 +18,8 @@ ismenu:boolean = false;
 toggleMenu(){
   this.ismenu =! this.ismenu 
 }
+closenavbar(){
+  this.ismenu = false
+}
+
 }

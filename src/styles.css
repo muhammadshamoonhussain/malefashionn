@@ -40,7 +40,7 @@
   }
   .footer-detailcart{
     position: absolute;
-    width: 98%;
+    width: 100%;
     top: -452%;
     max-width: 100%;
 
@@ -61,7 +61,7 @@
         top: -90%;
     }
     .footer-detailcart{
-      top: -545%;
+      top: -616%;
     }
     .footer-checkout{
       position: absolute;
@@ -107,6 +107,11 @@
   @media (max-width:969px) {
     .footer-cart{
         top: 0%;
+    }
+  }
+  @media (max-width:959px) {
+    .footer-detailcart{
+        top: -635%;
     }
   }
   @media (max-width:921px) {
@@ -260,7 +265,9 @@
   @media (max-width:630px) {
     
     .footer-detailcart{
-      top: -637%;
+      top: -653%;
+      left: -3px;
+
     }
 
       .footer-about {
@@ -277,8 +284,8 @@
   }
   @media (max-width:619px) {
     .footer-detailcart{
-      top: -629%;
-      width: 97%;
+      top: -653%;
+      width: 100%;
     }
   }
   @media (max-width:615px) {
@@ -328,7 +335,9 @@
   @media (max-width:491px) {
     .footer-detailcart{
       top: -661%;
-      width: 96%;
+      width: 100%;
+      left: 0px;
+  
     }
 
       .footer-checkout{
@@ -363,6 +372,14 @@
   
       }
     }
+    @media (max-width:432px) {
+      .footer-detailcart{
+        top: -661%;
+        width: 99%;
+        left: 0px;
+    
+      }
+    }  
   @media (max-width:425px) {
     .footer-shop{
       top: 986%;
@@ -384,8 +401,8 @@
    @media (max-width:400px) {
     
     .footer-detailcart{
-      top: -621%;
-      width: 97%;
+      top: -661%;
+      width: 99%;
   
     }
     .footer-shop{
@@ -431,6 +448,12 @@
 
   }
   }
+  @media (max-width: 396px) {
+    .footer-detailcart{
+      top: -659%;
+      width: 98%;
+    }
+  }
   @media (max-width: 395px) {
     .footer-cart{
         top: 1378%;
@@ -458,11 +481,18 @@
         top: -600vh;
     }
   } 
+  @media (max-width: 360px) {
+    
+    .footer-detailcart{
+      top: -659%;
+      width: 97%;
+    }
+  }
   @media (max-width: 345px) {
     
     .footer-detailcart{
-      top: -666%;
-      width: 89%;
+      top: -659%;
+      width: 97%;
     }
     .footer-shop{
       top: 913%;
@@ -472,8 +502,8 @@
   @media (max-width: 337px) {
     
     .footer-detailcart{
-      top: -660%;
-      width: 89%;
+      top: -659%;
+      width: 97%;
     }
   }
   @media (max-width: 328px) {
@@ -485,8 +515,8 @@
   @media (max-width: 300px) {
     
     .footer-detailcart{
-      top: -666%;
-      width: 87%;
+      top: -659%;
+      width: 97%;
     }
   } 
   @media (max-width: 281px) {
@@ -498,8 +528,8 @@
   @media (max-width: 276px) {
     
     .footer-detailcart{
-      top: -679%;
-      width: 87%;
+      top: -659%;
+      width: 97%;
     }
   }
   @media (max-width: 240px) {

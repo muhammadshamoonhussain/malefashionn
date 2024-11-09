@@ -459,8 +459,8 @@ max-width: 400px;
 @media (max-width:400px) {
     .container{
         top: 6px;
-        left: 5%;
-        width: 99%;
+        left: 4%;
+        width: 96%;
     }
     .text{
         top: 83%;
@@ -494,6 +494,7 @@ max-width: 400px;
         margin-top: -42px;
         font-size: 1.6rem;
         margin-left: 59px;
+        width: 100%;
     }
     .text h3{
         top: 45px;
@@ -503,16 +504,59 @@ max-width: 400px;
         top: 98px;
         left: 20%;
         width: 71%;
-        }
+    }
         .fa-solid{
             top: 7%;
         }
 }
-@media (max-width:344px) {
+@media (max-width:396px) {
     .container{
         top: 6px;
-        left: -11%;
-        width: 72%;
+        left: 8%;
+        width: 90%;
+    }
+    .pro-img{
+        width: 3%;
+    }
+    .pro-img img{
+        width: 65vw;
+        height: 65%;
+        position: relative;
+        left: -802%; 
+        object-fit: cover;
+    
+    }
+    .sm-img{
+        left: -255%;
+    }
+    .sm-img img{
+        height: 45%;
+        top: 12%;
+        left: -68px;
+    }
+    .text{
+        left: -1%;
+    }
+    .text h3{
+        top: 9px;
+        left: 38%;
+    }
+    .btn5{
+        left: 28%;
+        top: 62px;
+
+    }
+}
+@media (max-width:390px) {
+   .fa-solid{
+       font-size: 6.5vw;
+   }
+}
+@media (max-width:345px) {
+    .container{
+        top: 6px;
+        left: -6%;
+        width: 70%;
     }
     .pro-img{
 width: 43%;
@@ -520,7 +564,7 @@ width: 43%;
     .text{
         top: 83%;
         left: 16%;
-        width: 125%;
+        width: 109%;
     }
     .text .category{
         display: none;
@@ -538,7 +582,7 @@ width: 43%;
         left: -35%;
         flex-direction: row;
         gap: 77px;
-        top: -2%;
+        top: -6%;
     
     }
     .sm-img img{
@@ -548,11 +592,11 @@ width: 43%;
     .text h2{
         margin-top: -42px;
         font-size: 1.6rem;
-        margin-left: 59px;
+        margin-left: 49px;
     }
     .text h3{
-        top: 45px;
-        left: 27%;  
+        top: 20px;
+        left: 30%; 
         }
     .btn5{
         top: 98px;
@@ -561,13 +605,15 @@ width: 43%;
         }
         .fa-solid{
             top: 7%;
+            left: 24%;
         }
 }
  @media (max-width:337px) {
     .container{
         top: 6px;
-        left: -14%;
-        width: 72%;
+        left: -7%;
+        width: 62%;
+
     }
     .pro-img{
 width: 43%;
@@ -601,138 +647,25 @@ width: 43%;
         height: 109px;
     }
     .text h2{
-        margin-top: -42px;
+        margin-top: -30px;
         font-size: 1.6rem;
         margin-left: 59px;
     }
     .text h3{
-        top: 45px;
-        left: 27%;  
+        top: 40px;
+        left: 35%;  
         }
     .btn5{
         top: 98px;
-        left: 20%;
+        left: 25%;
         width: 71%;
         }
         .fa-solid{
             top: 7%;
         }
 }
-@media (max-width:400px) {
-    .container{
-        top: 6px;
-        left: 5%;
-        width: 99%;
-    }
-    .text{
-        top: 83%;
-        left: 5%;
-        width: 70%;
-    }
-    .text .category{
-        display: none;
-    }
-    
-    .pro-img img{
-        width: 65vw;
-        height: 65%;
-        position: relative;
-        left: -41%; 
-        object-fit: cover;
-    
-    }
-    .sm-img{
-        left: -26%;
-        flex-direction: row;
-        gap: 77px;
-        top: -2%;
-    
-    }
-    .sm-img img{
-        width: 1796%;
-        height: 109px;
-    }
-    .text h2{
-        margin-top: -42px;
-        font-size: 1.6rem;
-        margin-left: 59px;
-    }
-    .text h3{
-        top: 45px;
-        left: 27%;  
-        }
-    .btn5{
-        top: 98px;
-        left: 20%;
-        width: 71%;
-        }
-        .fa-solid{
-            top: 7%;
-        }
-}
- @media (max-width:390px) {
-    .fa-solid{
-        font-size: 6.5vw;
-    }
- }
-@media (max-width:345px) {
-    .container{
-        top: 6px;
-        left: -9%;
-        width: 72%;
-    }
-    .pro-img{
-width: 43%;
-    }
-    .text{
-        top: 83%;
-        left: 16%;
-        width: 125%;
-    }
-    .text .category{
-        display: none;
-    }
-    
-    .pro-img img{
-        width: 83vw;
-        height: 65%;
-        position: relative;
-        left: -38%;
-        object-fit: cover;
-    
-    }
-    .sm-img{
-        left: -32%;
-        flex-direction: row;
-        gap: 77px;
-        top: -2%;
-    
-    }
-    .sm-img img{
-        width: 1796%;
-        height: 109px;
-    }
-    .text h2{
-        margin-top: -42px;
-        font-size: 1.6rem;
-        margin-left: 70px;
-        width: 67%;
-    }
-    .text h3{
-        top: 45px;
-        left: 27%;  
-        }
-    .btn5{
-        top: 98px;
-        left: 20%;
-        width: 71%;
-        }
-        .fa-solid{
-            top: 7%;
-            left: 25%;
-            font-size: 6.5vw;
-        }
-}
+
+
 @media (max-width:323px) {
     .container{
         top: 6px;
@@ -745,7 +678,7 @@ width: 43%;
     .text{
         top: 83%;
         left: 16%;
-        width: 125%;
+        width: 100%;
     }
     .text .category{
         display: none;
@@ -771,14 +704,14 @@ width: 43%;
         height: 109px;
     }
     .text h2{
-        margin-top: -42px;
-        font-size: 1.6rem;
-        margin-left: 70px;
-        width: 73%;
+        margin-top: -30px;
+        font-size: 8.5vw;
+        margin-left: 39px;
+        width: 111%;
     }
     .text h3{
-        top: 45px;
-        left: 27%;  
+        top: 35px;
+        left: 30%;  
         }
     .btn5{
         top: 98px;
@@ -793,7 +726,7 @@ width: 43%;
     .container{
         top: 6px;
         left: -17%;
-        width: 72%;
+        width: 59%;
     }
     .pro-img{
 width: 43%;
@@ -832,27 +765,29 @@ width: 43%;
         margin-left: 59px;
     }
     .text h3{
-        top: 45px;
-        left: 27%;  
+        top: 25px;
+        left: 44%;
+        width: 95%;
         }
     .btn5{
-        top: 98px;
-        left: 20%;
-        width: 71%;
+        top: 91px;
+        left: 31%;
+        width: 86%;
         }
         .fa-solid{
             top: 7%;
+            left: 49%;
         }
 }
 
 @media (max-width:296px) {
     .container{
         top: 6px;
-        left: 5%;
-        width: 99%;
+        left: -3%;
+        width: 74%;
     }
     .text{
-        top: 83%;
+        top: 80%;
         left: -9%;
         width: 87%;
     }
@@ -861,18 +796,18 @@ width: 43%;
     }
     
     .pro-img img{
-        width: 76vw;
+        width: 101vw;
         height: 65%;
         position: relative;
-        left: -61%;
+        left: -87%;
         object-fit: cover;
     
     }
     .sm-img{
-        left: -38%;
+        left: -47%;
         flex-direction: row;
         gap: 77px;
-        top: -2%;
+        top: -7%;
     
     }
     .sm-img img{
@@ -882,29 +817,32 @@ width: 43%;
     .text h2{
         margin-top: -42px;
         font-size: 1.6rem;
-        margin-left: 59px;
+        margin-left: 67px;
+        width: 115%;
+    
     }
     .text h3{
-        top: 45px;
-        left: 30%;  
+        top: 23px;
+        left: 56%;
         }
     .btn5{
-        top: 98px;
-        left: 24%;
-        width: 71%;
+        top: 86px;
+        left: 35%;
+        width: 103%;
         }
         .fa-solid{
             top: 7%;
+            left: 19% ;
         }
 }
 @media (max-width:276px) {
     .container{
         top: 6px;
-        left: -6%;
-        width: 72%;
+        left: -3%;
+        width: 82%;
     }
     .text{
-        top: 83%;
+        top: 80%;
         left: -9%;
         width: 87%;
     }
@@ -913,18 +851,18 @@ width: 43%;
     }
     
     .pro-img img{
-        width: 80vw;
+        width: 101vw;
         height: 65%;
         position: relative;
-        left: -70%;
+        left: -87%;
         object-fit: cover;
     
     }
     .sm-img{
-        left: -45%;
+        left: -47%;
         flex-direction: row;
         gap: 77px;
-        top: -2%;
+        top: -7%;
     
     }
     .sm-img img{
@@ -934,19 +872,21 @@ width: 43%;
     .text h2{
         margin-top: -42px;
         font-size: 1.6rem;
-        margin-left: 48px;
-        width: 87%;
+        margin-left: 67px;
+        width: 115%;
+    
     }
     .text h3{
-        top: 45px;
-        left: 30%;  
+        top: 23px;
+        left: 56%;
         }
     .btn5{
-        top: 98px;
-        left: 24%;
-        width: 71%;
+        top: 86px;
+        left: 35%;
+        width: 103%;
         }
         .fa-solid{
             top: 7%;
+            left: 19% ;
         }
 }

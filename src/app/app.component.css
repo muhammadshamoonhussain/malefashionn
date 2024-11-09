@@ -1,0 +1,17 @@
+.cursor{
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    border-radius: 50%;
+    position: fixed;
+    font-size: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 9;
+    border: 1px solid rgb(117, 117, 117);
+    transform: translate(-45%, -20%); 
+
+     
+}

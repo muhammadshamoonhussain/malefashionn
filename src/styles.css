@@ -276,10 +276,10 @@
     }
   }
   @media (max-width:619px) {
-    .footer-detailcart{
+    /* .footer-detailcart{
       top: -629%;
       width: 97%;
-    }
+    } */
   }
   @media (max-width:615px) {
     .footer-cart{
@@ -424,12 +424,12 @@
       left: 5px;
       top: -600vh;
   }
-  .footer-detailcart{
+  /* .footer-detailcart{
     top: -502%;
     width: 86%;
     left: 2px;
 
-  }
+  } */
   }
   @media (max-width: 395px) {
     .footer-cart{
@@ -460,10 +460,10 @@
   } 
   @media (max-width: 345px) {
     
-    .footer-detailcart{
+    /* .footer-detailcart{
       top: -666%;
       width: 89%;
-    }
+    } */
     .footer-shop{
       top: 913%;
       width: 96%;

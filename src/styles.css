@@ -326,10 +326,10 @@
     }
   }
   @media (max-width:491px) {
-    /* .footer-detailcart{
-      top: -710%;
+    .footer-detailcart{
+      top: -600%;
       width: 99%;
-    } */
+    }
 
       .footer-checkout{
         position: absolute;

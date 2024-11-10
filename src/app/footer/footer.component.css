@@ -6,7 +6,7 @@
     position: relative;
     width: 97%;
     left: 0%;
-    top: 4172px;
+    top: 4383px;
     /* max-width: 100%; */
   }
   
@@ -67,6 +67,11 @@
       width: 94%;
     }
   }
+  @media (max-width:811px) {
+    .footer{
+      top: 5500px;
+    }
+  }
   @media (max-width:775px) {
     .footer{
       width: 93%;
@@ -75,7 +80,7 @@
     }
   @media (max-width:685px) {
     .footer{
-      top: 5008px;
+      top: 5172px;
       width: 92%;
     }
   }
@@ -109,6 +114,11 @@
         width: 90%;
         left: 2px;
     }
+      }
+      @media (max-width:459px) {
+        .footer{
+          top: 5674px;
+        }
       }
     
       @media (max-width:414px) {

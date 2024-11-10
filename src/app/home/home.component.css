@@ -221,7 +221,7 @@ transform: scaleY(1.05);
 .banner{
     display: flex;
     position: relative;
-    top: 1099px;
+    top: 1369px;
     flex-wrap: wrap;
     left: 7%;
     width: 50%;
@@ -251,15 +251,35 @@ transform: scaleY(1.05);
     color: #e53637;
 }
 #page2{
-    height: 100%;
+    height: 32vh;
     width: 100%;
-    background-color: rgb(11, 90, 90);
-    padding: 20px;
- }
-#page2 h1{
-    font-size: 33vw;
-    text-transform: uppercase;
- }
+    position: relative;
+    top: 258px;
+}
+
+#move{
+   background-color:#ffffff;
+   display: flex;
+   padding: 3vw 0;
+   overflow: hidden;
+   height: 16vh;
+}
+.marque {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    padding: 0 1.5vw;
+    transform: translateX(-100%);
+}
+
+.marque img{
+    height: 60px;
+}
+.marque h1{
+    font-size: 7vw;
+    font-family: 'Courier New', Courier, monospace;
+}
 @media (max-width:1115px) {
     .container .img{
         width: 1080px;
@@ -275,7 +295,7 @@ transform: scaleY(1.05);
         width: 56%;
     }
     .banner{
-        top: 1371px;
+        top: 1804px;
         left: 24%;
     }
     .text{
@@ -288,6 +308,9 @@ transform: scaleY(1.05);
     .btn{
         top: 160px;
         left: 10%;
+    }
+    #page2{
+        top: 775px;
     }
     
 }
@@ -318,7 +341,7 @@ margin-top: -43px;
         width: 78%;
     }
     .banner{
-        top: 1406px;
+        top: 1810px;
     }
 }
 @media (max-width:1035px) {
@@ -449,10 +472,23 @@ margin-top: -43px;
     left: 12%;
 }
 .banner{
-    top: 2540px;
+    top: 1862px;
     left: 17%;
 }
+#page2{
+    top: 859px;
 }
+}
+@media (max-width:811px) {
+
+    .banner{
+        top: 2800px;
+        left: 17%;
+    }
+    #page2{
+        top: 1854px;
+    }
+    }
 
 @media (max-width:803px) {
 .container .img{
@@ -507,7 +543,7 @@ margin-top: -43px;
 .banner{
     width: 75%;
     left: 13%;
-    top: 2617px;
+    top: 2811px;
 }
 .hero {
     top: 204px;
@@ -521,7 +557,7 @@ margin-top: -43px;
 }
 @media (max-width:718px) {
    .banner{
-    top: 2464px;
+    top: 2811px;
     width: 85%;
     left: 10%;
 
@@ -565,7 +601,7 @@ font-size: 2rem;
 }
 @media (max-width:685px) {
     .banner{
-        top: 2503px;
+        top: 2811px;
  
     }
    
@@ -633,6 +669,17 @@ font-size: 2rem;
     .btn{
         width: 22vw;
     }
+}
+@media (max-width:622px) {
+
+#page2{
+    top: 1240px;
+}
+.banner{
+    top: 2662px;
+        left: 29%;
+        width: 40%;
+}
 }
 
 @media (max-width:581px) {
@@ -896,7 +943,13 @@ font-size: 2rem;
         width: 79%;
     }
     .banner{
-        top: 2635px;
+        top: 2836px;
+        left: 19%;
+        width: 77%;
+
+    }
+    #page2{
+        top: 1329px;
     }
     .text h1{
         font-size: 7vw;
@@ -1104,11 +1157,29 @@ font-size: 2rem;
     .wrapper{
         left: 13%;
     }
+    .banner{
+        left: 14%;
+
+    }
 }
+
 @media (max-width: 360px) {
     .btn{
         width: 47vw;
         left: 30%;
+    }
+    }
+@media (max-width: 340px) {
+
+    .banner{
+        left: 10%;
+
+    }
+    #page2{
+        top: 1264px;
+    }
+    .marque h1{
+        font-size: 10vw;
     }
     }
 @media (max-width: 336px) {
@@ -1128,8 +1199,8 @@ font-size: 2rem;
         left: 4%;
     }
     .banner{
-        top: 2430px;
-        left: 2%;
+        top: 2757px;
+        left: 5%;
     }
     .img5 img{
         width: 87vw;

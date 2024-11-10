@@ -27,7 +27,7 @@ export class HomeComponent implements OnInit {
     if (dets.deltaY > 0) {
       gsap.to('.marque' ,{
         transform:'translateX(-200%)',
-        duration:10,
+        duration:4,
         repeat:-1,
         ease:'none'
       })
@@ -38,7 +38,7 @@ export class HomeComponent implements OnInit {
     else{
       gsap.to('.marque',{
   transform:'translate(0%)',
-  duration:10,
+  duration:4,
   repeat:-1,
   ease:'none'
 

@@ -48,6 +48,40 @@ gsap.to('.marque img',{
 })
     }
    })
+   if (window.innerWidth <= 768) { // Mobile condition
+    let startX: number = 0;
+    let endX: number = 0;
+
+    window.addEventListener('touchstart', (e: any) => {
+      startX = e.touches[0].pageX; // Get the starting X position
+    });
+
+    window.addEventListener('touchmove', (e: any) => {
+      endX = e.touches[0].pageX; // Get the ending X position
+
+      if (endX > startX) {
+        // Scrolling right
+        gsap.to('.marque', {
+          transform: 'translateX(0%)',
+          duration: 4,
+          ease: 'none'
+        });
+        gsap.to('.marque img', {
+          rotate: 0
+        });
+      } else if (endX < startX) {
+        // Scrolling left
+        gsap.to('.marque', {
+          transform: 'translateX(-200%)',
+          duration: 4,
+          ease: 'none'
+        });
+        gsap.to('.marque img', {
+          rotate: 180
+        });
+      }
+    });
+  }
    
   }
   

@@ -60,7 +60,7 @@
     top: 368px;
     left: 52%;
     width: 23%;
-    transform: translateX(250%);
+    transform: translateX(280%);
     opacity: 0;
 }
 .hero1 h1{
@@ -100,7 +100,7 @@
     top: 413px;
     /* left: 4%; */
     width: 23%;
-    transform: translateX(-270%);
+    transform: translateX(-300%);
     opacity: 0;
 
 }
@@ -144,7 +144,7 @@
     top: 488px;
     left: 51%;
     width: 23%;
-    transform: translateX(250%);
+    transform: translateX(290%);
     opacity: 0;
 }
 .hero3 h1{

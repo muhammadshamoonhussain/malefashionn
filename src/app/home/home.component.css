@@ -60,6 +60,8 @@
     top: 368px;
     left: 52%;
     width: 23%;
+    transform: translateX(250%);
+    opacity: 0;
 }
 .hero1 h1{
     position: absolute;
@@ -67,6 +69,8 @@
     left: -58%;
     width: 100%;
     font-size: 2.4rem;
+    opacity: 0;
+
 }
 .container1 .btn2{
     position: absolute;
@@ -94,8 +98,11 @@
 .container2{
     position: relative;
     top: 413px;
-    left: 4%;
+    /* left: 4%; */
     width: 23%;
+    transform: translateX(-270%);
+    opacity: 0;
+
 }
 .hero2 h1{
     position: absolute;
@@ -104,6 +111,8 @@
     left: 145%;
     width: 102%;
     font-size: 2.4rem;
+    opacity: 0;
+
 }
 .container2 .btn3{
     position: absolute;
@@ -135,6 +144,8 @@
     top: 488px;
     left: 51%;
     width: 23%;
+    transform: translateX(250%);
+    opacity: 0;
 }
 .hero3 h1{
     position: absolute;
@@ -143,6 +154,7 @@
     left: -47%;
     width: 98%;
     font-size: 2.4rem;
+    opacity: 0;
 }
 .container3 .btn4{
     position: absolute;

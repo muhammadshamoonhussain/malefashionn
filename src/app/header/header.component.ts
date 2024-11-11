@@ -23,20 +23,25 @@ ngOnInit(): void {
   y:-30,
   opacity:0,
   duration:.5,
-  delay:0.5
+  delay:0.5,
+  ease:'back.out'
  })
  tl.from('li',{
   y:-20,
   opacity:0,
   duration:.5,
-  stagger:0.3
+  stagger:0.3,
+  ease:'back.out'
+
  })
  tl.from('.fa-solid',{
   y:-20,
   opacity:0,
-  duration:.5,
+  duration:1,
   stagger:0.3,
-  scale:1.1
+  scale:1.1,
+  ease:'back.out'
+
  })
 
 }

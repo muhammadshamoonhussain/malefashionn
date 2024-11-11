@@ -6,7 +6,7 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 // Register ScrollTrigger with GSAP
-gsap.registerPlugin(ScrollTrigger);
+  gsap.registerPlugin(ScrollTrigger);
 
 @Component({
   selector: 'app-home',
@@ -85,6 +85,7 @@ gsap.to('.marque img',{
         }
       })
   }
+  
    
   }
   

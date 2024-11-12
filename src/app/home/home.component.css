@@ -310,8 +310,8 @@ transform: scaleY(1.05);
 }
 @media (max-width:1325px) {
     .wrapper{
-        left: 6%;
-        width: 90%;
+        left: 4%;
+        width: 96%;
 
     }
 }

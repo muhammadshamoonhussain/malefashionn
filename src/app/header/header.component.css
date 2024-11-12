@@ -83,6 +83,14 @@
     color: black;
     font-size: 3.5rem;
 }
+@media (max-width:1536px) {
+    .logo{
+        width: 27%;
+    }
+    .navbar{
+        width: 93%;
+    }
+}
 @media (max-width:1440px) {
     .logo{
         width: 27%;

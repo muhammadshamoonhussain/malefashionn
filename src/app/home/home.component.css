@@ -298,19 +298,16 @@ transform: scaleY(1.05);
         width: 100%;
     }
     .wrapper{
-        left: 5%;
-        width: 95%;
-    }
-}
-/* @media (max-width:1440px) {
-    .container .img{
-        width: 98%;
-    }
-    .wrapper{
-        left: 6%;
+        left: 9%;
         width: 91%;
     }
-} */
+}
+@media (max-width:1385px) {
+    .wrapper{
+        left: 6%;
+        width: 96%;
+    }
+}
 @media (max-width:1115px) {
     .container .img{
         width: 1080px;

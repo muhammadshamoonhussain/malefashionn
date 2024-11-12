@@ -293,6 +293,15 @@ transform: scaleY(1.05);
     font-size: 7vw;
     font-family: 'Courier New', Courier, monospace;
 }
+@media (max-width:1536px) {
+    .container .img{
+        width: 100%;
+    }
+    .wrapper{
+        left: 6%;
+        width: 91%;
+    }
+}
 @media (max-width:1440px) {
     .container .img{
         width: 98%;

@@ -298,8 +298,8 @@ transform: scaleY(1.05);
         width: 100%;
     }
     .wrapper{
-        left: 6%;
-        width: 91%;
+        left: 10%;
+        width: 89%;
     }
 }
 @media (max-width:1440px) {

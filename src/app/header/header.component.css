@@ -83,7 +83,22 @@
     color: black;
     font-size: 3.5rem;
 }
-
+@media (max-width:1440px) {
+    .logo{
+        width: 27%;
+    }
+    .navbar{
+        width: 100%;
+    }
+}
+@media (max-width:1415px) {
+    .logo{
+        width: 27%;
+    }
+    .navbar{
+        width: 101%;
+    }
+}
 @media (max-width:1115px) {
      .logo{
         width: 23%;

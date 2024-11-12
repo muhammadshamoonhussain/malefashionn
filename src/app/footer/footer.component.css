@@ -44,6 +44,18 @@
     margin-top: 20px;
     font-size: 1rem;
   }
+  @media (max-width:1440px) {
+    .footer{
+      width: 95%;
+      left: 7px;
+  }
+}
+  @media (max-width:1415px) {
+    .footer{
+      width: 95%;
+      left: 7px;
+  }
+}
   @media (max-width:1115px) {
     .footer{
       top: 5079px;

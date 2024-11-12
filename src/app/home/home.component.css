@@ -298,11 +298,11 @@ transform: scaleY(1.05);
         width: 100%;
     }
     .wrapper{
-        left: 10%;
-        width: 89%;
+        left: 5%;
+        width: 95%;
     }
 }
-@media (max-width:1440px) {
+/* @media (max-width:1440px) {
     .container .img{
         width: 98%;
     }
@@ -310,7 +310,7 @@ transform: scaleY(1.05);
         left: 6%;
         width: 91%;
     }
-}
+} */
 @media (max-width:1115px) {
     .container .img{
         width: 1080px;

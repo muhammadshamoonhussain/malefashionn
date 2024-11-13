@@ -50,6 +50,7 @@
     font-size: 1.1rem;
     font-family: sans-serif;
     cursor: pointer;
+    
 }
 
  .fa-solid{
@@ -80,6 +81,8 @@
     text-decoration: none;
     color: #000000;
     font-family: sans-serif;
+    opacity: 0;
+
 }
 .container1 .btn2::after{
     content: "";
@@ -123,6 +126,7 @@
     color: #000000;
     font-family: sans-serif;
     width: 40%;
+    opacity: 0;
 
 }
 .container2 .btn3::after{
@@ -165,6 +169,7 @@
     color: #000000;
     font-family: sans-serif;
     width: 40%;
+    opacity: 0;
 
 }
 .container3 .btn4::after{
@@ -188,6 +193,7 @@
     height: 337px;
     display: flex;
     left: 4%;
+    opacity: 0;
 }
 .content{
     display: flex;
@@ -239,6 +245,9 @@ transform: scaleY(1.05);
     left: 7%;
     width: 50%;
 }
+.hero4 .img5, .img6{
+opacity: 0;
+} 
 .text{
     position: relative;
     left: 82%;

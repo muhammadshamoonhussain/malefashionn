@@ -95,6 +95,7 @@ gsap.to('.marque img',{
       transform: 'translateX(9%)',
       opacity:1,
       duration:1,
+      ease:'none',
       scrollTrigger: {
         trigger: '.container1', 
         scroller: 'body',         
@@ -116,10 +117,23 @@ gsap.to('.marque img',{
       scrub:true,     
      }
    });
+   gsap.to('.hero1 .btn2', {
+    opacity:1,
+    duration:1,
+    delay:.9,       
+   scrollTrigger: {
+    trigger:'.hero1',
+    scroller:'body',
+    start:'top 80%',
+    end:'top 50%',
+    scrub:true,     
+   }
+ });
     gsap.to('.container2',{
       transform:'translateX(18%)',
       opacity:1,
       duration:1,
+      ease:'none',
       scrollTrigger:{
          trigger:'.container2',
          scroller:'body',
@@ -140,10 +154,23 @@ gsap.to('.marque img',{
       scrub:true,     
      }
    });
+   gsap.to('.hero2 .btn3', {
+    opacity:1,
+    duration:1,
+    delay:.9,       
+   scrollTrigger: {
+    trigger:'.hero2',
+    scroller:'body',
+    start:'top 80%',
+    end:'top 50%',
+    scrub:true,     
+   }
+ });
     gsap.to('.container3', {
       transform: 'translateX(0%)',
       opacity:1,
       duration:1,
+      ease:'none',
       scrollTrigger: {
         trigger: '.container3', 
         scroller: 'body',         
@@ -165,6 +192,57 @@ gsap.to('.marque img',{
        scrub:true,     
       }
     });
+    gsap.to('.hero3 .btn4', {
+      opacity:1,
+      duration:1,
+      delay:.9,       
+     scrollTrigger: {
+      trigger:'.hero3',
+      scroller:'body',
+      start:'top 80%',
+      end:'top 50%',
+      scrub:true,     
+     }
+   });
+    gsap.to('.wrapper', {
+      opacity:1,
+      duration:1,
+      scrollTrigger: {
+        trigger: '.wrapper', 
+        scroller: 'body',         
+        start: 'top 100%',        
+        end: 'top 0%',          
+        scrub: 2,
+                      
+      }
+    });
+    gsap.to('.img5,.img6', {
+      opacity:1,
+      duration:1,
+      scrollTrigger: {
+        trigger: '.img5, .img6', 
+        scroller: 'body',         
+        start: 'top 100%',        
+        end: 'top 0%',          
+        scrub: 2,
+                      
+      }
+    });
+    gsap.fromTo('.hero4 .text h1,.hero4 .text p',{
+       opacity:0,
+       y:50
+    },{
+      opacity:1,
+      y:0,
+      stagger:0.2,
+      scrollTrigger:{
+        trigger:'.hero4',
+        start:'top 80%',
+        end:'bottom 90%',
+        scrub:true,
+        
+      }
+    })
   }
   
   addtocart(pro:any){

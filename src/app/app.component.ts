@@ -9,24 +9,12 @@ import { gsap } from 'gsap';
 })
 export class AppComponent implements OnInit{
   title = 'project';
-  @ViewChild('cursor') refCursor:ElementRef | undefined;
+  @ViewChild('cursor' ,{static: true}) refCursor:ElementRef | undefined;
 
   constructor(public router:Router,private render:Renderer2){}
 
  ngOnInit(): void {
-
- }
- @HostListener('document:mousemove',['$event'])
- onmouseMove(event:any){
- if (this.refCursor?.nativeElement) {
-      gsap.to(this.refCursor.nativeElement, {
-        x: event.clientX,   // Mouse X position
-        y: event.clientY, 
-        duration: 0.5,     // Duration of the animation
-        ease: 'back.Out', // Ease for smooth effect
-        overwrite: 'auto'
-      });
-    }
+ 
  }
  
  

@@ -4,10 +4,9 @@
     padding: 20px;
     text-align: center;
     position: relative;
-    width: 97%;
+    width: 100%;
     left: 0%;
     top: 4383px;
-    /* max-width: 100%; */
   }
   
   .footer-content {
@@ -58,8 +57,8 @@
 }
   @media (max-width:1415px) {
     .footer{
-      width: 95%;
-      left: 7px;
+      width: 97%;
+      left: 0px;
   }
 }
   @media (max-width:1115px) {

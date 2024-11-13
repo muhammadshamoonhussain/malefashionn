@@ -40,10 +40,9 @@
   }
   .footer-detailcart{
     position: absolute;
-    width: 98%;
-    top: -452%;
-    max-width: 100%;
-
+    width: 100%;
+    top: -510%;
+    left: 0%;
   }
   .footer-checkout{
     position: absolute;
@@ -52,10 +51,7 @@
     max-width: 100%;
 
   }
-  .footer-shop{
-    /* max-width: 99%; */
-
-  }
+ 
   @media (max-width:1115px) {
     .footer-cart{
         top: -90%;

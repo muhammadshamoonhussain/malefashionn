@@ -19,6 +19,7 @@ import { MatSlideToggle } from "@angular/material/slide-toggle";
 import { AngularFireModule } from "@angular/fire/compat";
 import { AngularFirestore } from '@angular/fire/compat/firestore';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import { CursorComponent } from './cursor/cursor.component';
 
 const firebaseConfig = {
   apiKey: "AIzaSyBJjdjFFExnTMu9BQTPh_H8DCQF15GM-Fo",
@@ -41,6 +42,7 @@ const firebaseConfig = {
     CartComponent,
     CheckoutComponent,
     DetailcartComponent,
+    CursorComponent,
   ],
   imports: [
     BrowserModule,

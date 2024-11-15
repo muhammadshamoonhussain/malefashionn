@@ -2,6 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { ApiService } from '../service/api.service';
 import { CartapiService } from '../service/cartapi.service';
 import { id } from "../../app/type";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 @Component({
   selector: 'app-shop',
   templateUrl: './shop.component.html',
@@ -18,6 +22,14 @@ export class ShopComponent implements OnInit {
       this.product.forEach((a:any)=>{
         Object.assign({quantity:1 ,total:a.price})
       })
+    })
+    var tl = gsap.timeline()
+    tl.from('.filter',{
+      y:-20,
+      opacity:0,
+      duration:1,
+      ease:'back.in',
+      stagger:0.3
     })
   }
   addtocart(pro:any){

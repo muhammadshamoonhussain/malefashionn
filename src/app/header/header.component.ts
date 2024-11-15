@@ -21,7 +21,7 @@ ngOnInit(): void {
  var tl = gsap.timeline()
  tl.from('.logo',{
   y:-30,
-  opacity:0,
+  opacity:0,  
   duration:.5,
   delay:0.5,
   ease:'back.out'

@@ -91,6 +91,26 @@ gsap.to('.marque img',{
    
   }
   animate(){
+
+    gsap.to('.container', {
+      opacity:1,
+      duration:1,
+      delay:0.4,
+      ease:'none',
+    });
+    gsap.to('.hero', {
+      y:10,
+      opacity:1,
+      duration:1,
+      delay:0.4,
+      ease:'back.in',
+      scrollTrigger:{
+        trigger:'.hero',
+        scroller:'body',
+        start:'top 100%',
+        end:'top 0%',
+      }
+    });
     gsap.to('.container1', {
       transform: 'translateX(9%)',
       opacity:1,

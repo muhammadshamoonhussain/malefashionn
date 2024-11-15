@@ -5,6 +5,7 @@
     position: relative;
     top: -129px;
     margin-top: 43px;
+    opacity: 0;
 }
 
 .container .img{
